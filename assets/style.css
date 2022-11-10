@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-size: 2em;
+    padding: 1rem;
+    font-weight: 900;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    justify-items: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:25% 25% 15% 20% ;
+    justify-items: center;
+    align-items:center;
+    
+    
+}
+body{
+    background-image:linear-gradient(lightyellow,lightgreen);
+}
+input{
+    width:10vw;
+    height: 2vh;
+}
+textarea{
+    width: 50vw;
+}
+button{
+    width: 20vw;
+    height: 5vh;
+    font-size:1rem;
+    background-image: linear-gradient(red,orange);
+    font-weight: 900;
+}
